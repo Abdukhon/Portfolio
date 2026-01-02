@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(50, 100, 150);
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid white;
+    flex-direction: row;
+    font-family: monospace;
+    align-items: center;
+}
+.name{
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 175px 100px;
+}
+.mask{
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mask img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.body-text{
+    display: flex;
+    flex-direction: column;
+    color: rgb(50, 100, 150);
+    font-size: 60px;
+    font-family: fantasy;
+}
+.body-text p{
+    margin: 0 0;
+}
+.small-text{
+    font-size: 30px;
+}
+.big-text{
+    font-size: 80px;
+}
+.micro-text{
+    font-size: 50px;
+}
+.micro-text p{
+    margin: 10px 0;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.a{
+    text-decoration: none;
+    width: 100px;
+    padding: 10px 10px;
+    justify-content: left;
+    font-size: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(50, 100, 150);
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+}
+
+.a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 100, 150);
+    border: 2px solid rgb(50, 100, 150);
+    transition: 0.5s;
+}
+.a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 100, 150);
+}
+.a:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(50, 100, 150);
+}
+@media (max-width: 1560px) {
+    section{
+        flex-direction: column;
+    }
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.skillhead{
+    display: block;
+    background-color: rgb(50, 100, 150);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    font-family: monospace;
+}
+.skills{
+    display: flex;
+    background-color: rgb(50, 100, 150);
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.skills::-webkit-scrollbar {
+    display: none;
+}
+.skillist{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 25px;
+    justify-content: center;
+    border-radius: 20px;
+    color: rgb(50, 100, 150);
+    background-color: white;
+}
+.skillname{
+    display: inline-block;
+    font-family: monospace;
+    text-align: center;
+    font-size: 80px;
+    margin: 100px 20px 0 20px;
+    width: 330px;
+}
+.skilllevel{
+    display: inline-block;
+    font-family: monospace;
+    text-align: center;
+    font-size: 30px;
+    margin: 0 20px 100px 20px;
+    width: 330px;
+}
+.motivation {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    color: rgb(50, 100, 150);
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: monospace;
+}
+.motivation p{
+    margin: 0;
+}
