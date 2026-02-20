@@ -1,0 +1,72 @@
+.Detail{
+    display: none;
+    place-content: center;
+    position: fixed;
+    grid-template-areas: 'nav nav' 'Bild Descript' 'details Descript';
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #00c8fa;
+    padding: 20px;
+}
+.close{
+    display: inline;
+    border: none;
+    grid-area: nav;
+    color: #000000;
+    background-color: #00c8fa;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+.detail_img{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    width: 1002.5px;
+    border-radius: 20px;
+}
+.picture{
+    flex: 0 0 1002.5px;
+    scroll-snap-align: center;
+}
+.about_it{
+    grid-area: Descript;
+    width: 400px;
+    margin: 10px;
+}
+.resources{
+    grid-area: details;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.detail_img::-webkit-scrollbar {
+    display: none;
+}
+.visual{
+    display: flex;
+    
+    grid-area: Bild;
+    flex-direction: row;
+    align-items: center;
+}
+.switch{
+    border: none;
+    background: none;
+}
+.programmen{
+    display: flex;
+    flex-direction: row;
+}
+.tool{
+    margin: 10px;
+}
+@media (max-width: 1796px) {
+    .Detail{
+        grid-template-areas: 'nav' 'nav' 'Bild' 'details' 'Descript' 'Descript';
+    }
+}

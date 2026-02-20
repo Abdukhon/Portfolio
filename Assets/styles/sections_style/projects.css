@@ -1,0 +1,38 @@
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 20px;
+}
+.project{
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #2c5364;
+}
+.screenshot{
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+.projectname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2c5364;
+    padding: 20px;
+    border-radius:0 0 20px 20px;
+    color: #00c8fa;
+    box-shadow: 20px 20px 30px 0 rgba(0, 200, 250, 0.1);
+    font-size: 20px;
+}
+.details{
+    border: none;
+    background-color: black;
+    color: #00c8fa;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+@media (max-width: 1796px) {
+    .projects{
+        grid-template-columns: auto;
+    }
+}
