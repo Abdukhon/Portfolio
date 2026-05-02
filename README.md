@@ -56,12 +56,12 @@ Das Portfolio ist vollständig responsive und optimiert für:
 
 ## Hauptmerkmale
 
-- ✅ Smooth Scrolling
-- ✅ Responsive Navigation (Mobile Menu)
-- ✅ Projekt-Galerie mit Details
-- ✅ Skill-Showcase
-- ✅ Direkte Kontaktlinks
-- ✅ PDF-Downloads (Lebenslauf, Zeugnis)
+- Smooth Scrolling
+- Responsive Navigation (Mobile Menu)
+- Projekt-Galerie mit Details
+- Skill-Showcase
+- Direkte Kontaktlinks
+- PDF-Downloads (Lebenslauf, Zeugnis)
 
 ## Kontakt
 
