@@ -10,11 +10,13 @@ function closeButton(target){
         x.style.display = 'none';
     }
 }
-function switchButton(direction) {
-    const gall = document.getElementById('gallery');
-    const scrollw = gall.clientWidth
-    gall.scrollBy({
-        left: scrollw *direction,
-        behavior: 'smooth'
-    })
+function switchButton(direction, galleryId) {
+    const gall = document.getElementById(galleryId);
+    if (gall) {
+        const scrollw = gall.clientWidth;
+        gall.scrollBy({
+            left: scrollw * direction,
+            behavior: 'smooth'
+        });
+    }
 }

@@ -43,7 +43,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-@media (max-width: 1796px) {
+@media (max-width: 768px) {
     .about_content{
         flex-direction: column;
         margin: 0 50px;

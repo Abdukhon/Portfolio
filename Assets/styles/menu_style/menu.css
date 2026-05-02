@@ -55,7 +55,7 @@
     flex-direction: column;
     transform: translate(10px, 20%);
 }
-@media (max-width: 1796px) {
+@media (max-width: 768px) {
     .images{
         display: none;
         flex-direction: column;
@@ -71,7 +71,7 @@
         position: fixed;
     }
 }
-@media (min-width: 1796px) {
+@media (min-width: 769px) {
     .images{
         flex-direction: column;
         position: fixed;

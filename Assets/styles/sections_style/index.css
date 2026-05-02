@@ -90,7 +90,7 @@ body{
     color: rgb(0, 200, 250);
     transition: 0.5s;
 }
-@media (max-width: 1796px) {
+@media (max-width: 768px) {
     section{
         flex-direction: column;
     }

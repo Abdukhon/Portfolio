@@ -12,6 +12,23 @@
 .screenshot{
     border-radius: 20px 20px 0 0;
     overflow: hidden;
+    background-color: #1a3a47;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.placeholder-img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1a3a47 0%, #2c5364 100%);
+    color: #00c8fa;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px dashed #00c8fa;
 }
 .projectname{
     display: flex;
@@ -31,7 +48,7 @@
     border-radius: 20px;
     padding: 0 20px;
 }
-@media (max-width: 1796px) {
+@media (max-width: 768px) {
     .projects{
         grid-template-columns: auto;
     }
